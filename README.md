@@ -1,2 +1,2 @@
 # cli-rpg
-A simple text-based RPG which uses set options instead of an open-ended parser.
+A simple text-based RPG which uses visible options instead of an open-ended parser.
