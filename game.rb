@@ -37,7 +37,7 @@ end
 # Updates state based off of input
 def parse_options(input, state = $state)
   case input
-  when Options.new(["1", "explore", "x", "e"])
+  when Options.new(["0", "explore", "x", "e"])
     state.scene = :cave
   end
 end

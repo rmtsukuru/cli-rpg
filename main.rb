@@ -23,7 +23,7 @@ def main_update
     handle_exit
   elsif ["help", "h"].include? input
     display_help
-  elsif ["options", "h"].include? input
+  elsif ["options", "o"].include? input
     display_options
   else
     parse_options input
